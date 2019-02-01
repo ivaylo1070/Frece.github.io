@@ -1,5 +1,5 @@
 <!DOCTYPE html> <!--declaration of html5 file-->
-<html lang="en"> <!--sets language to English-->
+<html lang="en" class="contact"> <!--sets language to English-->
 	<head>	<!--sets UTF-8 characters, 1:1 screen size, name of author,content, keywords, author, css sheets and fav icons -->
 		<meta charset="UTF-8">
 		<title>COMPANY NAME | Contact page</title>
@@ -7,7 +7,7 @@
 		<meta name="description" content="entertainment"> 
 		<meta name="keywords" content ="Enjoyment, Fun, Entertainment, Relaxation, Joy, Amusement, Pleasure ">
 		<meta name="author" content="Ivaylo Nachev-2018-Inholland">
-		<link rel="stylesheet" href="css/style-contact.css">
+		<link rel="stylesheet" href="css/style.css">
 		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -18,10 +18,8 @@
 	</head>
 	<body>
 	<header>
-		<article class="containerLogo"> <!--class for the company logo-->
-			<img src="img/companylogoBG.jpg" title="logo" alt="We are entertainment!"/>
-			<article class="center">company name</article> <!--name of company for the logo-->
-			</article>		
+			<article class="center">company name</article> <!--name of company for the logo-->		
+	</header>
 			<nav>	<!--navigation bar with unordered list-->
 				<ul>
 					<li> <a href="index.html">home</a></li>
@@ -34,9 +32,10 @@
 				</ul>
 			</nav>	
 	
-	</header>
-	<p>contact</p>
+	
+	<aside>contact</aside>
 <form action="nowhere.php" method="post">  <!--start contact form-->
+	<p>More information</p>
 	<fieldset>
 		<label >Select topic</label>
 		<select>
@@ -67,7 +66,7 @@
 				placeholder="Write something.."
 		></textarea>
 	</fieldset>	
-			<input 
+			<input id="Submit"
 				type="submit"
 				value="Submit"
 			</>
