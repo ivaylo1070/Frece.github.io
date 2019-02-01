@@ -1,0 +1,106 @@
+
+header{
+	color:#ffffff;
+	min-height:250px;
+	border-bottom:#ffffff;
+	text-align:center;
+	max-width:900px;
+	padding-right:300px;
+	position:center;
+	
+}
+.containerLogo img{
+	position: no-repeat fixed;
+	height:200px;
+	width:900px;
+}
+.center{
+	position:absolute;
+    top:10%;
+	left:39%;
+	font-size:35pt;
+	font-family:Berlin Sans FB Demi;
+	text-transform:uppercase;
+}
+nav
+{
+	width:900px;
+	height:50px;
+	margin-top:-18px;
+	background-color:#707070;
+	margin-bottom:3px;
+}
+ul 
+{
+	list-style-type: none;	
+}
+
+nav li {
+	display:inline;	
+}
+
+li a 
+{
+	font-family:Times;
+	font-size:15pt;
+	float:left;
+	color:#ffffff;
+	text-transform:uppercase;
+	text-decoration:none;
+	padding: 10px 70px 20px 60px;
+	margin-left: 80px;	
+	
+	
+}
+body{	
+	color:#000000;
+	background:url("../img/background.jpeg") no-repeat top center fixed;
+	background-size: cover;
+	width:900px;
+	margin: 0 auto;
+	text-align:center;
+}
+body p{
+	font-family:Times;
+	background-color:#2699FB;
+	font-size:30pt;
+	color:#ffffff;
+	margin:0px;
+	width:900px;
+	text-align: center;
+	
+}
+#grid-container
+{
+	width:900px;
+	background-color:#ffffff;
+	display: grid;
+	margin: 10px 30px 10px 10px;
+	grid-template-columns: 280px 280px 280px;
+	grid-template-rows: 280px 280px 280px;
+	grid-gap:10px;
+}
+.grid-container p
+{
+	color:#ffffff;
+	text-transform:uppercase;
+	font-size:25pt;
+	background-color:#2699FB;
+	padding: 20px 20px 20px 20px;
+	
+}
+footer{
+	font-family:Times;
+	font-size:15pt;
+	color:#FFFFFF;
+	background-color:#000000;	
+	text-align:center;
+	width:900px;
+	margin-left:-10px;
+}
+img{
+	
+    width:  280px;
+    height: 280px;
+    background-repeat: no-repeat;
+}
